@@ -1,35 +1,83 @@
-Order a Melongram
+<!doctype html>
+<html lang = "en">
+    <head>
+    <h1>Order a Melongram</h1>
+    </head>
+    <body>
 
-There's no better way to show a loved one you care than with a Melongram.
+<p>There's no better way to show a loved one you care than with a Melongram.</p>
 
-Each Melongram comes with a custom message printed on high-quality cardstock
-and your choice of a hand-picked, premium melon.
+<p>Each Melongram comes with a custom message printed on high-quality cardstock
+and your choice of a hand-picked, premium melon.</p> <br>
+<br>
 
-Melon Options
+    <h2>Melon Options</h2>
+    <table>
+    <p>Choose from one of these melons:</p>
+        <td>Watermelon</td>
+        <td>$1,200.00</td><tr> 
+    </tr>
+    <tr>
+        <td>Canteloupe</td>
+        <td>$400.00</td>
+    </tr>
+    <tr>
+        <td>Honeydew</td>
+        <td>$1,750,00.00</td>
+        </tr>
+    </table>
 
-Choose from one of these melons:
 
-Watermelon $1,200.00
-Canteloupe $400.00
-Honeydew $1,750,00.00
+    <h3> Order Form </h3>
 
-Order Form
+<form>
+<label>Your Name</label>
+<input type="text" name= "name"> 
+<br>
+<label>Who are you sending this to?</label> 
+<input type="text" name= "recipient"> 
+<br> 
 
-Your name
+<label>Choose a melon of your choice:</label>
+<select name="Choose a melon">
+  <option value="Watermelon">Watermelon</option>
+  <option value="Canteloupe">Canteloupe</option>
+  <option value="Honeydew">Honeydew</option>
+</select>
+ 
+<form> 
+<br>
 
-Who are we sending this to?
+<label>When should we deliver?</label>
 
-Choose a melon
-Watermleon
-Canteloupe
-Honeydew
+  <input type="radio" name="time" value="am">
+  <label>Morning</label>
 
-When should we deliver?
-Morning
-Evening
-Any time
+  <input type="radio" name="time" value="pm">
+  <label>Evening</label>
 
-Enter your message:
+  <input type="radio" name="time" value="any">
+  <label>Anytime</label>
+</form>
+  
+ 
+<input
+  type="textarea"
+  name="message"
+  value="Enter your message here."
+>
 
-Subscribe to our newsletter
-Yes
+<form>
+  Subscribe to our newsletter
+
+  <input type="checkbox" name="subscribe" value="yes">
+  <label>Yes</label>
+</form>
+
+<form>
+  <button type="submit">Submit here</button>
+</form>
+ 
+</form>
+</body>
+</html>
